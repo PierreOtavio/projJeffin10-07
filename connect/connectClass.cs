@@ -2,8 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using WindowsFormsApp2.interfaces;
 
-public class ConnectClass
+public class ConnectClass : IPersistencia
 {
     private const string connectStr = "Server=localhost;Database=controle_db;Uid=root;Pwd=;";
 
